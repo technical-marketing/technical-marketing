@@ -1,0 +1,47 @@
+body {
+    margin: auto;
+}
+
+.top-logo {
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-bottom: 10%;
+}
+
+.coming {
+    font-family: "sukhumvit set" sans-serif;
+    text-align: center;
+    background-color: #58595B;
+    margin: 0 0 5% 0;
+    padding: 20px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 5px;
+    text-align: center;
+    font-family: "sukhumvit set" sans-serif;
+    color: #58595B;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.sales {
+    color: #73C9BB;
+}
+
+.email {
+    margin-bottom: 5%;
+}
+
+.footer {
+    height: 17rem;
+    background-color: #58595B;
+}
