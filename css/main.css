@@ -1,0 +1,35 @@
+.coming {
+    background-color: #58595B;
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+body {
+    font-family: "Sukhumvit Set", sans-serif;
+    margin: auto;
+}
+
+.top-logo {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+
+p {
+    text-align: center;
+    margin: 0;
+    color: #58595B;
+}
+
+.name {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.sales {
+    color: #73C9BB;
+}
