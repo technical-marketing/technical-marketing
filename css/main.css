@@ -12,10 +12,26 @@ body {
 
 .top-logo {
     width: 70%;
-    display: block;
-    margin: auto;
-    margin-bottom: 20%;
-    margin-top: 20%;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    
+}
+
+.banner {
+    height: 100vh;
+}
+
+.contact {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 p {
@@ -32,4 +48,10 @@ p {
 
 .sales {
     color: #73C9BB;
+}
+
+@media only screen and (min-width: 25em) {
+    .top-logo {
+        top: 10%;
+    }
 }
